@@ -538,6 +538,12 @@ footer {
   align-items: center;
 }
 
+.social-links-list-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .social-links-link {
   display: flex;
   height: 44px;
@@ -613,6 +619,8 @@ footer {
 
 .page-footer .container {
   display: flex;
+  justify-content: start;
+  align-items: start;
 }
 
 .footer-logo-address {
@@ -620,7 +628,6 @@ footer {
 }
 
 .footer-social-links {
-  padding-top: 12px;
 }
 
 .footer-social-links-title {
